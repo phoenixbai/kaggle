@@ -18,7 +18,9 @@ def load():
         bias = net.params[layer][1].data
 
         print "="*30 + layer + "weight" + "="*30
+        print weight
         print "="*30 + layer + "bias" + "="*30
+        print bias
 
     # ifc0_w = net.params['ifc0'][0].data
     # ifc0_b = net.params['ifc0'][1].data
